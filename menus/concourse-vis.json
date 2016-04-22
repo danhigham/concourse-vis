@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle concourse-vis",
+        "command": "concourse-vis:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "concourse-vis",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "concourse-vis:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

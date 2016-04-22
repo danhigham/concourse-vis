@@ -1,0 +1,22 @@
+{
+  "name": "concourse-vis",
+  "main": "./lib/concourse-vis",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "concourse-vis:toggle"
+  },
+  "repository": "https://github.com/atom/concourse-vis",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "underscore": "1.8.3",
+    "js-yaml": "3.6.0",
+    "d3": "3.5.5",
+    "jquery": "2.1.1"
+  }
+}

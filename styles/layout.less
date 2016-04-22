@@ -1,0 +1,71 @@
+@import (reference) "_vars.less";
+
+.display-in-middle {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translate(0, -70%);
+  text-align: center;
+}
+
+nav .groups {
+  height: 40px;
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  font-size: 14px;
+}
+
+.nav-right {
+  list-style: none;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  right: 10px;
+  height: 40px;
+  margin: 0;
+}
+
+nav .groups li {
+  float: left;
+}
+
+nav .groups li a {
+  display: inline-block;
+  padding: 0 10px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+
+.nav-item {
+  &, a {
+    color: @base07;
+  }
+  font-size: 18px;
+  line-height: 40px;
+}
+
+
+#page-header {
+  width: 100%;
+  position: fixed;
+  top: 40px;
+  z-index: 2;
+}
+
+#content {
+  margin-top: 40px;
+}
+
+
+.build-actions {
+  width: 150px;
+}
