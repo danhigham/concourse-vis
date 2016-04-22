@@ -1,7 +1,7 @@
 {
   "name": "concourse-vis",
   "main": "./lib/concourse-vis",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Preview Concourse pipelines in Atom!",
   "keywords": [
     "Concourse",
