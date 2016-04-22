@@ -1,14 +1,16 @@
 {
   "name": "concourse-vis",
   "main": "./lib/concourse-vis",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "1.0.0",
+  "description": "Preview Concourse pipelines in Atom!",
   "keywords": [
+    "Concourse",
+    "CI"
   ],
   "activationCommands": {
     "atom-workspace": "concourse-vis:toggle"
   },
-  "repository": "https://github.com/atom/concourse-vis",
+  "repository": "https://github.com/danhigham/concourse-vis",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

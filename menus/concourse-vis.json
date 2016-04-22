@@ -12,10 +12,10 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "concourse-vis",
+          "label": "Concourse",
           "submenu": [
             {
-              "label": "Toggle",
+              "label": "Preview pipeline",
               "command": "concourse-vis:toggle"
             }
           ]

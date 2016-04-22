@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-c": "concourse-vis:toggle"
+    "ctrl-alt-p": "concourse-vis:toggle"
   }
 }
