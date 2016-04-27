@@ -1,6 +1,6 @@
 # concourse-vis package
 
-A plugin to preview [Concourse](http://concourse.io) pipelines in Atom.
+A plugin to preview [Concourse](http://concourse.ci) pipelines in Atom.
 
 - ctrl + alt + p to view the pipeline pane.
 - Click on any job or resource to jump to that object in your pipeline definition.
