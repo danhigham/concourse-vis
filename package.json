@@ -1,7 +1,7 @@
 {
   "name": "concourse-vis",
   "main": "./lib/concourse-vis",
-  "version": "1.7.0",
+  "version": "1.5555.0",
   "description": "Preview Concourse pipelines in Atom!",
   "keywords": [
     "Concourse",
@@ -10,7 +10,7 @@
   "activationCommands": {
     "atom-workspace": "concourse-vis:toggle"
   },
-  "repository": "https://github.com/danhigham/concourse-vis",
+  "repository": "git@github.com:danhigham/concourse-vis.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
